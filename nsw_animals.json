@@ -1,0 +1,215 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://82f31d5c-6c82-4c9a-9772-c11bb99976e6",
+	"@type": "sc:Manifest",
+	"label": "Journal of a voyage to New South Wales ",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "This collection is made up of the sixty-five plates of \"non-descript animals, birds, lizards, serpents, curious cones of trees and other natural productions\" illustrated by Sarah Stone in John White's Journal of a voyage to New South Wales, London : Printed for J. Debrett, 1790. The Library holds two first edition copies of this publication in Rare Books and Special Collections, published in 1790, and the first French edition, published in 1795.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "Journal of a voyage to New South Wales : with sixty-five plates of non descript animals, birds, lizards, serpents, curious cones of trees and other natural productions. London : Printed for J. Debrett, 1790.",
+	"sequences": [
+		{
+			"@id": "http://bb3c0ad2-8a5f-4d2c-94e1-d3579d45e44e",
+			"@type": "sc:Sequence",
+			"label": "Normal Sequence",
+			"canvases": [
+				{
+					"@id": "http://e578e983-5d20-4522-9846-f3ae93c7b589",
+					"@type": "sc:Canvas",
+					"label": "1. Cyprinaceous labrus. 2. The hippocampus or sea-horse",
+					"height": 783,
+					"width": 601,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://0549a036-dc1d-4574-8409-b2e97aa51fd3",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/76016b9b63f174b80ab399303c18aec98faa25556d66f4c6548850251bafb508/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/76016b9b63f174b80ab399303c18aec98faa25556d66f4c6548850251bafb508",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 783,
+								"width": 601
+							},
+							"on": "http://e578e983-5d20-4522-9846-f3ae93c7b589"
+						}
+					],
+						"otherContent": [
+    {
+        "@id": "http://localhost:8887/fish1.json",
+        "@type": "sc:AnnotationList",
+        "label": ""
+    }
+					],
+					"related": "",
+					"metadata": [
+						{
+							"label": "Description",
+							"value": "Inscribed: \"1. Cyprinaceous Labrus. 2. The Hippocanthus or Sea-Horse. Published as the Act directs Dec: 29, 1789, by I. Debrett.\""
+						}
+					]
+				},
+				{
+					"@id": "http://54881e15-5aa2-4c40-b8bb-43514d62ac3a",
+					"@type": "sc:Canvas",
+					"label": "1. Fasciated mullet. 2. Doubtful sparus",
+					"height": 783,
+					"width": 599,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ef0c9a39-8572-4675-97eb-714299ac40cd",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/387fe6bda683c5fd0109d5994097af71c03a746d5b259a512e92391f75de85cf/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/387fe6bda683c5fd0109d5994097af71c03a746d5b259a512e92391f75de85cf",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 783,
+								"width": 599
+							},
+							"on": "http://54881e15-5aa2-4c40-b8bb-43514d62ac3a"
+						}
+					],
+					"otherContent": [
+	{
+			"@id": "http://localhost:8887/fish2.json",
+			"@type": "sc:AnnotationList",
+			"label": ""
+	}
+				],
+					"related": "",
+					"metadata": [
+						{
+							"label": "Description",
+							"value": "Fasciated mullet and doubtful sparus (title from List of plates)"
+						}
+					]
+				},
+				{
+					"@id": "http://5a7bddac-c6ec-4d09-a99d-ba55e62b8c73",
+					"@type": "sc:Canvas",
+					"label": "1. Large scolopendra. 2. Spider. 3. Crab. 4. Caterpillar",
+					"height": 786,
+					"width": 597,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://915fcf07-8331-4971-867b-782f99331aa1",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/34197cd3d854bc89ea5321af646975af44d94bd160362c36a2f4feba3417275b/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/34197cd3d854bc89ea5321af646975af44d94bd160362c36a2f4feba3417275b",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 786,
+								"width": 597
+							},
+							"on": "http://5a7bddac-c6ec-4d09-a99d-ba55e62b8c73"
+						}
+					],
+					"otherContent": [
+	{
+			"@id": "http://localhost:8887/insects.json",
+			"@type": "sc:AnnotationList",
+			"label": ""
+	}
+				],
+					"related": "",
+					"metadata": [
+						{
+							"label": "Description",
+							"value": "Insects of New South Wales, viz. large scolopendra, spider, crab, and caterpillar (title from List of plates)"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "left-to-right"
+}

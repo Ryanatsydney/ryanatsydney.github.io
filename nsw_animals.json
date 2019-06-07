@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://82f31d5c-6c82-4c9a-9772-c11bb99976e6",
+	"@id": "https://ryanatsydney.github.io/nsw_animals.json",
 	"@type": "sc:Manifest",
 	"label": "Journal of a voyage to New South Wales ",
 	"metadata": [],
@@ -68,7 +68,7 @@
 					],
 						"otherContent": [
     {
-        "@id": "http://localhost:8887/fish1.json",
+        "@id": "https://ryanatsydney.github.io/fish1.json",
         "@type": "sc:AnnotationList",
         "label": ""
     }
@@ -131,7 +131,7 @@
 					],
 					"otherContent": [
 	{
-			"@id": "http://localhost:8887/fish2.json",
+			"@id": "https://ryanatsydney.github.io/fish2.json",
 			"@type": "sc:AnnotationList",
 			"label": ""
 	}
@@ -194,7 +194,7 @@
 					],
 					"otherContent": [
 	{
-			"@id": "http://localhost:8887/insects.json",
+			"@id": "https://ryanatsydney.github.io/insects.json",
 			"@type": "sc:AnnotationList",
 			"label": ""
 	}

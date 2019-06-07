@@ -1,6 +1,6 @@
 {
   "@context":"http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:8887/insects.json",
+  "@id": "https://ryanatsydney.github.io/insects.json",
   "@type":"sc:AnnoationList",
   "resources":
 

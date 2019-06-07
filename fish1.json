@@ -1,0 +1,80 @@
+{
+  "@context":"http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8887/fish1.json",
+  "@type":"sc:AnnoationList",
+  "resources":
+
+[ {
+  "@id" : "http://35.177.224.176:8888/annotation/1559924926511",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2019-06-07T16:28:46",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "Cyprinaceous labrus",
+    "format" : "text/html",
+    "chars" : "<p>Cyprinaceous labrus</p>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://82f31d5c-6c82-4c9a-9772-c11bb99976e6",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b4",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=70,94,456,229"
+      },
+      "item" : {
+        "@id" : "_:b3",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M69.89503,94.29441h228.11863v0h228.11863v114.31615v114.31615h-228.11863h-228.11863v-114.31615z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_bf253c56-d995-43ba-9254-c135414de58c\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://54881e15-5aa2-4c40-b8bb-43514d62ac3a"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}, {
+  "@id" : "http://35.177.224.176:8888/annotation/1559924946196",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2019-06-07T16:29:06",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "Hippocampus or Sea-horse",
+    "format" : "text/html",
+    "chars" : "<p>Hippocampus or Sea-horse</p>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://82f31d5c-6c82-4c9a-9772-c11bb99976e6",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b3",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=48,365,504,271"
+      },
+      "item" : {
+        "@id" : "_:b4",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M47.5236,364.69689h251.94907v0h251.94907v135.71491v135.71491h-251.94907h-251.94907v-135.71491z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_c9c26f7d-577b-4817-80e4-aeeb4eb29913\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://54881e15-5aa2-4c40-b8bb-43514d62ac3a"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+} ]
+}
